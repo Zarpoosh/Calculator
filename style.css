@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body ,html{
+    height: 100%;
+}
+h1{
+    font-size: 100px;
+    margin: 3px;
+    text-align: center;
+    margin-top: 50px;
+    border: 3px dashed black;
+}
+form{
+    background-color: black;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+input[name="display"]{
+    background-color: lightgray;
+    height: 60px;
+    text-align: right;
+    border-radius: 8px;
+    margin: 5px;
+    width:calc(100% - 30px) ;
+    border: none;
+    padding: 0 10px;
+    font-size: 30px;
+    color: black;
+
+  
+}
+
+input[type="button"]{
+    float: left;
+    width: calc(100% / 4 - 6.5px );
+    background-color: aliceblue;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center;
+    margin: 0 0 5px 5px;
+    font-size: 25px;
+}
+input[type="button"]:nth-last-of-type(1){
+    background-color:yellow;
+    width: calc(50% - 7px);
+
+}
+
